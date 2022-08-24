@@ -1,0 +1,533 @@
+* {padding: 0px;
+    margin: 0px;
+  }
+body
+    {background-color: rgb(10, 10, 10);
+    width: 100%;}
+.titulos {
+    text-align: center ;
+    font-family:'robot flex', sans-serif;
+    color: rgb(240, 240, 240);
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width:100%;
+        }   
+.h1 {font-size: 50px;} 
+.nav  ul {
+    text-align: center;
+    list-style-type: none;
+         }
+.nav ul li {
+    font-family:'robot flex', sans-serif;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    background-color: rgb(30, 30, 30);
+    border: 1px solid;
+    border-color: rgb(50, 50, 50);
+    height: 35px;
+}
+.nav ul li:hover{
+    background-color: rgb(10, 10, 10);} 
+.nav ul li a
+    {color: rgb(200, 200, 200);}
+.nav ul li a:hover {
+    color: rgb(255, 255, 255);}
+.formulario
+    { color: rgb(255, 255, 255);
+        text-align: center;
+}
+
+                                 /* Grid index */
+
+   .imageindex{
+    height: 480px;
+    width: 360px;
+    display: flex;
+    align-self: center;
+    margin: 20px;
+  }
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "header header nav"
+    "article article article"
+    "footer footer footer";
+    grid-template-rows: 200px 700px 150px;
+    grid-template-columns: 3fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    row-gap: 10px;
+    }
+header
+    {grid-area: header;
+    background-color:rgb(10, 10, 10);}
+
+nav
+    {grid-area: nav;
+    background-color: rgb(255, 255, 255);
+}
+
+article
+    {grid-area: article;
+    background-color: rgb(10, 10, 10);
+}
+
+footer
+    {grid-area: footer;
+    background-color: rgb(204, 36, 36);
+    
+}
+.border
+    {border:2px solid
+    rgb(255, 255, 255);}
+
+@media screen and (min-width: 768px) {
+  .imageindex{
+    height: 1080px;
+    width: 720px;
+    display: flex;
+    align-self: center;
+    margin: 20px;
+  }
+  .grid{
+        display: grid;
+        grid-template-areas: 
+        "header header nav"
+        "article article article"
+        "footer footer footer";
+        grid-template-rows: 200px 1fr 200px;
+        grid-template-columns: 40% 30% 30%;}
+    .nav{
+        background-color: rgb(10, 10 , 10);  
+        align-self: end;    
+        }
+    .nav ul{
+        margin-right: 0px;
+        display: flex;
+        justify-content: flex-end;
+            }
+    .nav ul li{
+        font-size: 30px;
+        border: 1px solid;
+        padding: 10px;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    article{
+        background-color: rgb(30, 30, 30);
+    }
+    footer{
+        background-color: rgb(10, 10, 10); 
+    }
+    .parrafon{font-size: 30px;}
+}
+/* Fin de Grid Index */
+
+/* Comienzo Grid Productos */
+.grid2{
+    display: grid;
+    grid-template-areas: 
+    "header  nav"
+    "div div"
+    "footer footer";
+    grid-template-rows: 200px 1300px 150px;
+    grid-template-columns: 3fr 1fr ;
+    height: 100vh;
+    width: 100%;
+    row-gap: 10px;
+    }
+header
+    {grid-area: header;
+    background-color:rgb(10, 10, 10);
+    height:100px ;
+}
+    
+nav
+    {grid-area: nav;
+    background-color: white;
+}
+
+div
+    {grid-area: div;
+        background-color: rgb(10, 10, 10);
+        font-size: 30px;
+    }
+
+footer
+    {grid-area: footer;
+    background-color: rgb(204, 36, 36);
+}
+.img1{
+    height: 480px;
+    width: 310px;}
+.img2{
+        height: 480px;
+        width: 310px;}
+
+@media screen and (min-width: 768px) {
+  
+  .grid2{
+        display: grid;
+        grid-template-areas: 
+        "header  nav"
+        "div div "
+        "footer footer ";
+        grid-template-rows: 200px 1fr 200px;
+        grid-template-columns: 70% 30%;}
+    .nav{
+        background-color: rgb(10, 10 , 10);  
+        align-self: end;    
+        }
+    .nav ul{
+        margin-right: 20px;
+        display: flex;
+        justify-content: flex-end;
+            }
+    .nav ul li{
+        font-size: 30px;
+        border: 1px solid;
+        padding: 10px;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+   
+    div{
+        background-color: rgb(204, 36, 36);
+        
+    }
+    .img1{
+     display: flex;
+     margin: 10px;
+     height: 1080px;
+     width: 720px;
+     margin-left: 600px;
+    }
+    
+    .img2{
+        display: flex;
+     margin: 10px;
+     height: 1080px;
+     width: 720px;
+     justify-content:space-evenly;
+     margin-left: 600px;
+    }
+ 
+    footer{
+        background-color: rgb(10, 10, 10);        
+    }
+                                        }
+
+/* Fin Grids Productos */
+
+/* Inicio Grids Clientes */
+
+
+.Cliente{height: 480px;
+    width: 360px;
+    margin: 5px;
+    display: flex;
+}
+#imagen7{display: none;}
+
+#imagen6{display: none;}
+
+#imagen5{display: none;}
+
+#imagen4{display: none;}
+
+.grid3{
+    display: grid;
+    grid-template-areas: 
+    "header  nav"
+    "section section"
+    "footer footer";
+    grid-template-rows: 200px 1800px 150px;
+    grid-template-columns: 3fr 1fr ;
+    height: 100vh;
+    width: 100%;
+    row-gap: 10px;
+    }
+header
+    {grid-area: header;
+    background-color:rgb(10, 10, 10);
+    height:100px ;
+}
+    
+nav
+    {grid-area: nav;
+    background-color: white;
+}
+
+section
+    {grid-area: section;
+    background-color: rgb(10, 10, 10);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+      }
+
+footer
+    {grid-area: footer;
+    background-color: rgb(204, 36, 36);
+}
+
+@media screen and (min-width: 768px) {
+
+  .grid3{
+        display: grid;
+        grid-template-areas: 
+        "header  nav"
+        "section section "
+        "footer footer ";
+        grid-template-rows: 200px 1fr 200px;
+        grid-template-columns: 70% 30%;}
+        .Cliente{height: 937px;
+            width: 700px;
+            margin:  50px;}
+        header{width: 100%;}
+    .nav{
+        background-color: rgb(10, 10 , 10);  
+        align-self: end;   
+        padding-bottom: 100px; 
+        width: 100%;
+        }
+    .nav ul{
+        margin-right: 10px;
+        display: flex;
+        justify-content: flex-end;
+            }
+    .nav ul li{
+        font-size: 30px;
+        border: 1px solid;
+        padding: 10px;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .producto {width:25%}
+    section{
+        background-color: rgb(204, 36, 36);
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-items:center;
+        align-items:center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .image
+    { background-color: black;
+    color: white;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    }
+    footer{
+        background-color: rgb(10, 10, 10);
+    
+            }
+}
+                                /* Fin Grid 3 Clientes */
+
+                                /* Inicio Grid Nosotros */
+
+.gridnosotros{
+    display: grid;
+    grid-template-areas: 
+    "header nav"
+    "aside aside"
+    "footer footer";
+    grid-template-rows: 200px 1100px 150px;
+    grid-template-columns: 3fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    row-gap: 10px;
+    }
+.parrafon{
+color: rgb(255, 255, 255);
+text-align: center;
+}
+#nosotros{
+    height: 100%;
+    width: 100%;
+}
+header
+    {grid-area: header;
+    background-color:rgb(0, 0, 0);
+    height:100px ;
+}
+nav
+    {grid-area: nav;
+    background-color: white;
+}
+aside
+    {grid-area: aside;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+
+}
+
+footer
+    {grid-area: footer;
+    background-color: rgb(204, 36, 36);
+}
+
+@media screen and (min-width: 768px) {
+  
+  .gridnosotros{
+        display: grid;
+        grid-template-areas: 
+        "header nav"
+        "aside aside "
+        "footer footer ";
+        grid-template-rows: 200px 1fr 200px;
+        grid-template-columns: 70% 30%;}
+    header{
+        background-color: rgb(0, 0, 0);
+    }
+    .producto {width:25%}
+    aside{
+        background-color: rgb(0, 0, 0);
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+         }
+    article{
+        display: flex;
+        flex-direction: column;
+     }
+    footer{
+        background-color: rgb(0, 0, 0);        
+    }
+    #nosotros{
+        height: 50%;
+        width: 50%;
+        align-self: center;
+        background-color: rgb(0, 0, 0);
+    }
+
+
+}
+                            /* Fin Grid Nosotros */
+                            /* Inicio Grid Contacto */
+
+    .gridContacto{
+        display: grid;
+        grid-template-areas: 
+        "header nav"
+        "div div"
+        "footer footer";
+        grid-template-rows: 200px 600px 150px;
+        grid-template-columns: 3fr 1fr ;
+        height: 100vh;
+        width: 100vw;
+        row-gap: 20px;
+        }
+    .titulosform{  
+        font-family:'robot flex', sans-serif;
+        color: rgb(240, 240, 240);
+        display: flex;
+        flex-direction: column;
+        align-self: start;  
+              }
+
+                
+    header
+        {grid-area: header;
+        background-color:rgb(10, 10, 10);
+        height:100px ;
+    }
+        
+    nav
+        {grid-area: nav;
+        background-color:rgb(10, 10, 10);
+    }
+    div 
+    {grid-area: div;
+    padding: 25px;
+}
+
+
+    footer
+        {grid-area: footer;
+        background-color: rgb(204, 36, 36);
+    }
+
+    @media screen and (min-width: 768px) {
+      
+      .gridContacto{
+            display: grid;
+            grid-template-areas: 
+            "header  nav"
+            "div div "
+            "footer footer ";
+            grid-template-rows: 200px 1fr 200px;
+            grid-template-columns: 70% 30%;}
+        .nav{
+            background-color: rgb(10, 10 , 10);    
+            }
+        .nav ul{
+            margin-right: 20px;
+            display: flex;
+                }
+        .nav ul li{
+            font-size: 30px;
+            border: 1px solid;
+            padding: 10px;
+        }
+        .nav ul li a{
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .producto {width:25%}
+
+        footer{
+            background-color: rgb(10, 10, 10);        
+        }
+        .formulario{
+            font-size: 50px;
+                }
+                input{
+                    height: 50px;
+                    width: 700px;
+                    font-size: 30px;
+                }
+                textarea{
+                    height: 200px;
+                    width: 800px;
+                    font-size: 30px;
+                }
+            
+
+          /* Fin Grid Contacto */
+
+                                        }
+
+
+
+/* 
+.parallax
+{
+    background-image: url("https://www.freepik.es/foto-gratis/corte-metal-equipo-plasma-planta_7813771.htm#page=2&query=soldar&position=32&from_view=search");
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+} */
