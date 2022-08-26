@@ -1,6 +1,30 @@
 * {padding: 0px;
     margin: 0px;
   }
+  .burger{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    font-size: 25px;
+    font-family:'robot flex', sans-serif;
+  }
+  #burger{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+  }
+  #menu{
+    font-family:'robot flex', sans-serif;
+    font-size: 30px;
+  }
 body
     {background-color: rgb(10, 10, 10);
     width: 100%;}
@@ -86,6 +110,9 @@ footer
     rgb(255, 255, 255);}
 
 @media screen and (min-width: 768px) {
+    #menu{
+        display: none;
+    }
   .imageindex{
     height: 1080px;
     width: 720px;
@@ -127,6 +154,15 @@ footer
         background-color: rgb(10, 10, 10); 
     }
     .parrafon{font-size: 30px;}
+    .burger{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+      }
 }
 /* Fin de Grid Index */
 
@@ -200,9 +236,9 @@ footer
         padding-left: 10px;
         padding-right: 10px;
     }
-   
+                            /* COLORES DE TODAS LAS DIV */
     div{
-        background-color: rgb(204, 36, 36);
+        background-color: rgb(10, 10, 10);
         
     }
     .img1{
@@ -225,6 +261,7 @@ footer
     footer{
         background-color: rgb(10, 10, 10);        
     }
+
                                         }
 
 /* Fin Grids Productos */
@@ -464,7 +501,7 @@ footer
 
     footer
         {grid-area: footer;
-        background-color: rgb(204, 36, 36);
+        background-color: rgb(10, 10, 10);
     }
 
     @media screen and (min-width: 768px) {
