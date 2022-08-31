@@ -4,37 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./styles/style.css">
     <title>HerreroGamer</title>
 </head>
-<body class="grid">
-  <header class="header">
-    <h1 class="titulos h1">HERRERO GAMER</h1>
-    <h2 class="titulos" >EL HERRERO QUE TODO GAMER NECESITA</h2>
-  
-  </header>
-  <nav    class="nav">
-    <!-- Menú -->
+<header class="container header">
+  <div class="row">
+    <img src="/image/Herrerogamer.jpg" class="col-4 logo" alt="Logo">
+    <h4 class="col-8 titulo">EL HERRERO QUE TODO GAMER NECESITA</h4>
+    <nav class="navbar navbar-expand-lg menu">
+      <div class="container-fluid">
+        <a class="navbar-brand">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav">
+           <li class="nav-item">
+             <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/paginas/Productos.html">Productos</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/paginas/clientes.html">Clientes</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="/paginas/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/paginas/contacto.html">Contacto</a>
+          </li>
+         </ul>
+        </div>
+      </div>
+    </nav>
+</div>
+</header>
+</br>
+<body class="container bodyhome">
+  <div class="row">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/image/Silla Sprinter.jpg" class="d-block w-100 carrusel" alt="Silla Gamer butaca de auto">
+          <div class="carousel-caption d-md-block">
+          </div>
+        </br>
+        <h5 class="titulocarrusel">Silla Gamer</h5>
+        </div>
+        <div class="carousel-item">
+          <img src="/image/escritorio.png" class="d-block w-100 carrusel" alt="Escritorio de acero y fenolico">
+          <div class="carousel-caption d-md-block">
+          </div>
+        </br>
+          <h5 class="titulocarrusel">Escritorio de acero con fenolico</h5>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+      <footer class="footer">
+      </br>
+
+        <H2 class="footer">FOOTER</H2>
+      </br>
         <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./paginas/Productos.html">Productos</a></li>
-            <li><a href="./paginas/clientes.html">Clientes</a></a></li>
-            <li><a href="./paginas/nosotros.html">Nosotros</a></li>
-            <LI><a href="./paginas/contacto.html">Conctacto</a></LI>
+          <li>
+            <a class="footer" href="#">INSTAGRAM</a>
+          </li>
+        </br>
+          <li>
+            <a class="footer" href="#">FACEBOOK</a>
+          </li>
+        </br>
+          <li>
+            <a class="footer" href="#">WHATSAPP</a>
+          </li>
         </ul>
-  </nav>
+      </footer>
 
-  <article>
-  </br>
-    <h3 class="titulos h1 ">CARRUSEL</h3>
-    <img src="./image/Silla Sprinter.jpg" alt="SILLA GAMER" class="imageindex">
-
-  <p class="parrafon">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-    <!-- <section class="parallax" style="background-image: url(https://img.freepik.com/foto-gratis/corte-metal-equipo-plasma-planta_176420-4752.jpg?w=1380&t=st=1659416421~exp=1659417021~hmac=838e6e03cc136b1d0a9356e2b2af216826b1056801a761714c8169f1d2f00c97) ;"></section> -->
-  </article>
-  
-  <footer class="titulos h1 ">FOOTER</footer>
-         
-
+  </div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
