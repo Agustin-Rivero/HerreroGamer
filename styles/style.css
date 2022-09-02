@@ -1,182 +1,67 @@
-* {padding: 0px;
-    margin: 0px;
-  }
-.titulo{
-    padding-top: 25px;
-    text-align: center;
-    font-size: 20px;
-    color: rgb(250, 250, 250);
-}
-.header{
-    background-color: rgb(0, 0, 0);
-    color: rgb(250, 250, 250);
-    display: flex;
-}
-                                        /* Colores del nav */
-.menu{
-      background-color: rgb(0,0,0);
-}
-.navbar-brand{
-    color: rgb(240, 240, 240);
-}
-.nav-link{
-    color: rgb(240,240,240);
-}
-.navbar-toggler-icon{
-    background-color: rgb(240,240,240);
-}
-.navbar-toggler{
-    background-color: rgb(240,240,240);
-}
-                                            /* body del home */
-.bodyhome{
-    background-color: rgb(0, 0, 0);
-}
-.carrusel{
-    height: 500px;
-}
-.titulocarrusel{
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
-.carousel-indicators{
-    padding: 10px;
-}
-                                     /* Footer */
-
-.footer{
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-.footer ul li{
-    list-style: none;}
-
-.footer ul li a{
-    color: blueviolet;
+.menu {
+  background-color: rgb(0, 0, 0);
 }
 
-                                /* Mediaquery inicio */
-
-                                @media screen and (min-width: 768px) {
-   .bodyhome{
-    background-color:rgb(0, 0, 0) ;
-   }
-   .navbar-brand{
-    display: none;
-   }
-   .titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-   }
-    #navbarNav{
-        display: flex;
-        justify-content: end;
-        font-size: 20px;    }
-    .carrusel{
-        height: 900px;
-    }
-    
+.navbar-brand {
+  color: rgb(240, 240, 240);
 }
 
-/* Página Nosotros */
-
-.imgnosotros{
-    width: 100%;
-    display: flex;
+.nav-link {
+  color: rgb(240, 240, 240);
 }
-.bodynosotros{
-    background-color: rgb(0, 0, 0);
-    padding: 20px;}
-.span{
-        font-size: 20px;
-        color: white;
-        display: flex;
-        justify-content: center;
-    }
 
-.parrafo{
-    color: rgb(250, 250, 250);
-    text-align: center;
+.navbar-toggler-icon {
+  background-color: rgb(240, 240, 240);
 }
-                            /* mediaquery nosotros */
+
+.navbar-toggler {
+  background-color: rgb(240, 240, 240);
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+  color: rgb(250, 250, 250);
+  display: flex;
+}
+
+.titulos {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+.fondo {
+  background-color: rgb(0, 0, 0);
+}
+
+.listas {
+  color: white;
+}
+
+.product {
+  margin: 20px;
+  width: 90%;
+  display: flex;
+}
+
 @media screen and (min-width: 768px) {
-.bodynosotros{
-    background-color: rgb(0, 0, 0);
-}
-.span{
-    font-size: 30px;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-.imgnosotros{
-    width: 75%;
-}
-.nosotros{
-    display: flex;
-    justify-content: center;
-}
-.parrafo{
-    margin-left:  10%;
-    margin-right: 10%;
-}
-}
-                        /* Página Productos */
-.titulos{
-    color: white;
-    text-align: center;
-    margin: 10px;
-}
-.fondo{
-    background-color: rgb(0, 0, 0);
-}
-.listas{
-    color: white;
-}
-.product{
-    margin: 20px;
-    width: 90%;
-    display: flex;
-}
-@media screen and (min-width: 768px) {
-.product{
+  .product {
     height: 800px;
     width: 600px;
+  }
+  .titulos {
+    text-align: left;
+    margin-left: 20px;
+  }
 }
-.titulos{
-text-align: left;
-margin-left: 20px;
+.footer {
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
-
+.footer .footer ul li {
+  list-style: none;
 }
-                            /* Página Clientes */
-
-.img-fluid{
-    padding: 10px;
-}
-
-@media screen and (min-width: 768px) {
-.cliente{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-padding-left: 60px;
-}
-}
-                                    /* Página de contacto */
-
-.formulario{
-    color: white;
-    display: grid;
-    justify-content: center;
-}
-@media screen and (min-width: 768px) {
-#nombre{
-    width: 500px;
-}
-
-
-}
+.footer .footer ul li .footer ul li a {
+  color: blueviolet;
+}/*# sourceMappingURL=style.css.map */
