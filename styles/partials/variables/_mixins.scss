@@ -1,0 +1,8 @@
+@mixin footerLinks($bgColor, $textColor, $borderColor) {
+    margin: 2px;
+    padding: 5px;
+    background-color: $bgColor;
+    color: $textColor;
+    border: 3px solid $borderColor ;
+    
+}
