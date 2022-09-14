@@ -3,11 +3,19 @@
   }
   
   .navbar-brand {
-    color: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    display: none;
   }
-  
-  .nav-link {
+  .navbar-toggler{
+    margin-left:  35px;
+   
+  }
+.nav-link:hover{
+  color: rgb(255,0,0);
+}
+  .nav-link{
     color: rgb(240, 240, 240);
+ 
   }
   
   .navbar-toggler-icon {
@@ -17,4 +25,13 @@
   .navbar-toggler {
     background-color: rgb(240, 240, 240);
   }
-  
+
+  @media screen and (min-width: 768px) {
+
+#navbarNav{
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 100px;
+
+    }
+  }

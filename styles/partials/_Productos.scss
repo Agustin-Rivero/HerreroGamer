@@ -10,20 +10,30 @@
   
   .listas {
     color: white;
+    padding-right: 50px;
   }
   
   .product {
+    border-radius: 20%;
     margin: 20px;
     width: 90%;
     display: flex;
+
   }
   @media screen and (min-width: 768px) {
     .product {
       height: 800px;
       width: 600px;
+      border-radius: 50px;
+
     }
     .titulos {
-      text-align: left;
+      text-align: center;
       margin-left: 20px;
+    }
+    .productos{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }  

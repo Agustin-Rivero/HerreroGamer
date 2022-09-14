@@ -1,0 +1,24 @@
+.formulario {
+    display: flex;
+    flex-direction: column ;
+    padding: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.button{
+    margin: 5px;
+}
+@media screen and (min-width: 768px) {
+.formulario{
+padding-left: 600px;
+padding-right: 600px;
+}
+.button{
+    margin: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.tyc{
+    text-align: center;
+}
+}

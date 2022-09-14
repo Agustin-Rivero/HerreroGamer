@@ -1,0 +1,17 @@
+.titulocarrusel{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+}
+.carousel-indicators{
+   padding: 10px;
+}
+.carrusel{
+    border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+.carrusel{
+    border-radius: 50px;
+    height: 1600px;
+}
+}

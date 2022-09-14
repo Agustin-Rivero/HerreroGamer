@@ -1,0 +1,19 @@
+.cliente{
+    padding: 25px;
+}
+.img-fluid{
+    padding-top:  50px;
+    border-radius: 20%;
+}
+@media screen and (min-width: 768px) {
+.cliente{
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img-fluid{
+    border-radius: 10%;
+
+}
+}
