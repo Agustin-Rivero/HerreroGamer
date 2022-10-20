@@ -1,10 +1,39 @@
 .imgnosotros{
-width: 100%;
-height: 100%;
+width: 160%;
 }
-@media screen and (min-width: 768px) {
-.parrafo{ padding-left:  100px;
-    padding-right: 100px ;
+.main-nos{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+.parrafo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+    .div-img{
+        width: 60%;
+    }
+    .div-text{
+        width: 60%;
+        align-content: center;
+        align-self: center;
+    }
 
-}
+@media screen and (min-width: 768px) {
+.imgnosotros{
+width: 100%;
+        }
+        .main-nos{
+            flex-direction: row;
+            height: 900px;
+        }
+        .div-img{
+            align-self: center;  
+        }
+        .div-text{
+            width: 40%;
+            padding-right: 100px;
+            padding-top: 100px;
+        }
+
 }

@@ -5,7 +5,22 @@
     padding-top:  50px;
     border-radius: 20%;
 }
+.card{
+    border: 1px solid rgb(50, 50, 50);
+    margin: 25px 15px;
+    
+}
+.card:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+    transition: 0.3s;
+}
+
 @media screen and (min-width: 768px) {
+.card{
+    width: 30rem;
+}
 .cliente{
     padding-left: 100px;
     display: flex;
@@ -14,6 +29,9 @@
 }
 .img-fluid{
     border-radius: 10%;
-
+}
+.card{
+    border: 2px solid rgb(50, 50, 50);
+    margin-bottom: 150px;
 }
 }
